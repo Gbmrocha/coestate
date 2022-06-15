@@ -63,7 +63,7 @@ const PropertyInfo = (props) => (
     >
         <View>
             <Text style = {{ fontSIze: 15, fontWeight: "700" }}>{props.name}</Text>
-            <Text style = {{ fontSIze: 13, color: "gray" }}>35-45 • min</Text>
+            <Text style = {{ fontSIze: 13, color: "gray" }}>1it00km</Text>
         </View>
    </View>
 );
