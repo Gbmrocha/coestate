@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, SafeAreaView} from 'react-native';
+import SearchBar from '../components/SearchBar';
 
 export default function HomePage() {
         return(
