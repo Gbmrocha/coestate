@@ -1,7 +1,8 @@
-import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
-import HomePage from './pages/HomePage';
+import * as React from 'react';
+import NavBottom from './components/NavBottom';
 
 export default function App() {
-  return <HomePage />;
-
+  return (
+    <NavBottom />
+  );
 }
