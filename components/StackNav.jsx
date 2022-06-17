@@ -3,6 +3,7 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import DetailPage from "../pages/DetailPage";
 import NavBottom from "./NavBottom";
+import Maps from "./Maps";
 
 const Stack = createNativeStackNavigator();
 
@@ -19,6 +20,11 @@ export default function StackNav() {
                 <Stack.Screen
                     name="Details"
                     component={DetailPage}
+                />
+
+                <Stack.Screen
+                    name="Maps"
+                    component={Maps}
                 />
             </Stack.Navigator>
         </NavigationContainer>
