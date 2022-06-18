@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { SafeAreaView, ScrollView, TouchableOpacity, Text, View, StyleSheet } from 'react-native';
-
+import GetImage, {image} from '../components/GetImage';
 export default function AccountPage() {
     const [user, setUser] = useState(data);
 
@@ -11,7 +11,6 @@ export default function AccountPage() {
 
                 <View style={{ alignItems: 'center' }}>
                     <TouchableOpacity
-                        onPress={(e) => alert('foto')}
                         style={{
                             marginTop: 60,
                             marginBottom: 10,
@@ -23,7 +22,8 @@ export default function AccountPage() {
                             borderRadius: 100,
                             backgroundColor: '#ccc',
                         }}>
-                        <Text>Envie sua foto</Text>
+                        <GetImage />
+                        {/*<Text>Envie sua foto</Text>*/}
                     </TouchableOpacity>
 
                     <Text>{user.username}</Text>
