@@ -11,19 +11,16 @@ export default function GetImage (){
             allowsEditing: true,
             aspect: [4,3],
             quality: 1,
-        });
-    
-        console.log(result);
+        }).then((result) => 
+            setImage(result.uri)
+        );
 
-        if(!result.cancelled){
-            setImage(result.uri);
-        }   
     };
 
     return(
         <View style={{flex: 1, justifyContent: "center" }}>
-            <Button title="Escolha uma foto" onPress={() => pickImage()} />
-            {image && <Image source = {{uri: image}}/>}
+            {!image && <Button title="Escolha sua foto" onPress={pickImage} />}
+            {image && <Image source = {{uri: image}} style={{ width: 150, height: 150, borderRadius: 100, }}/>}
         </View>
     )
 }
