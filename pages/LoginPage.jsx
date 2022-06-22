@@ -34,7 +34,7 @@ export default function LoginPage() {
       <View style={styles.inputView}>
         <TextInput
           style={styles.TextInput}
-          placeholder="Password."
+          placeholder="Senha."
           placeholderTextColor="#003f5c"
           secureTextEntry={true}
           onChangeText={(password) => setPassword(password)}
@@ -42,14 +42,14 @@ export default function LoginPage() {
       </View>
  
       <TouchableOpacity>
-        <Text style={styles.forgot_button}>Forgot Password?</Text>
+        <Text style={styles.forgot_button}>Esqueceu sua senha?</Text>
       </TouchableOpacity>
-      <TouchableOpacity>
+      <TouchableOpacity onPress={(e) => navigation.navigate('Register')}>
         <Text style={styles.forgot_button}>Registre-se</Text>
       </TouchableOpacity>
  
       <TouchableOpacity style={styles.loginBtn} onPress={(e) => navigation.navigate('Home')}>
-        <Text style={styles.loginText}>login</Text>
+        <Text style={styles.loginText}>Entrar</Text>
       </TouchableOpacity>
     </View>
   );

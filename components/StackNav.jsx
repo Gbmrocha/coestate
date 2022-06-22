@@ -5,6 +5,7 @@ import DetailPage from "../pages/DetailPage";
 import NavBottom from "./NavBottom";
 import Maps from "./Maps";
 import LoginPage from "../pages/LoginPage";
+import RegisterPage from "../pages/RegisterPage";
 
 const Stack = createNativeStackNavigator();
 
@@ -18,6 +19,10 @@ export default function StackNav() {
                     options={{ headerShown: false }}
                 />
                 <Stack.Screen
+                    name="Register"
+                    component={RegisterPage}
+                />
+                <Stack.Screen
                     name="Home"
                     component={NavBottom}
                     options={{ headerShown: false }}
@@ -26,7 +31,6 @@ export default function StackNav() {
                     name="Details"
                     component={DetailPage}
                 />
-
                 <Stack.Screen
                     name="Maps"
                     component={Maps}
