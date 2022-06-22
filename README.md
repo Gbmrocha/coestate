@@ -1,31 +1,16 @@
 # COESTATE
 
-## 1 - Escrever o readme - Gabriel
-### O que faz:
-### Imagens com funcionamento
-### Informações sobre os desenvolvedores
-### Tema e Pitch
+Aplicativo desenvolvido para facilitar e intermediar a interação entre corretores imobiliários e pessoas com interesse em aluguel e/ou compra de casas/apartamentos através de anúncios das casas, com fotos, descrição e localização da mesma, agilizando e facilitando a comunicação.
 
-## 2 - 6 commits com atualizações incrementais
-### Wireframes funcionais
+## Funcionamento
 
-## 3 - Apresentação (Slide) -  Gabriel
-### Abertura - Nome do app, participantes e github
-### Recursos implementados
-### Como foi organizado o desenvolvimento
-### Vídeo demonstrando funcionamento
-### Motivação
-### [Wireframes](https://www.figma.com/file/gYPDm8uHiHKyU33fAfS2Jo/Untitled?node-id=0%3A1)
-### Modelo de negócios (Financiamento e Lucro)
-### Detalhes do desenvolvimento (Ferramentas, Gerencia de projeto, Divisão de Tarefas, Commits realizados e Exemplos de boas práticas)
-
-## 4 - Requisitos
-### 5 telas de interface distintas 
-#### Login -  Pedro
-#### Register - Pedro
-#### HomePage - Gabriel e João
-#### About -  João
-#### Description - João
-### 2 recursos nativos
-#### Acesso a fotos -  Gabriel 
-#### Mapa - João
+## Desenvolvedores
+### João Pedro Rios
+[Github](https://github.com/joaorios03)
+[LinkedIn](https://www.linkedin.com/in/joao-pedro-rios/)
+### Gabriel Barreto
+[Github](https://github.com/Gbmrocha)
+[LinkedIn](https://www.linkedin.com/in/gbmrocha/)
+### Pedro Antonio Nunes
+[Github](https://github.com/Z33DD)
+[LinkedIn](https://www.linkedin.com/in/pedroantonionunesmoreira/)
