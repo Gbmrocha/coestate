@@ -2,8 +2,17 @@
 
 Aplicativo desenvolvido para facilitar e intermediar a interação entre corretores imobiliários e pessoas com interesse em aluguel e/ou compra de casas/apartamentos através de anúncios das casas, com fotos, descrição e localização da mesma, agilizando e facilitando a comunicação.
 
-## Funcionamento
-
+## Telas
+### Login
+![login](./assets/login.jpeg)
+### Registro
+![registro](./assets/register.jpeg)
+### Home
+![home](./assets/home.jpeg.jpeg)
+### Detalhes
+![detalhes](./assets/detalhes.jpeg)
+### Perfil
+![perfil](./assets/perfil.jpeg)
 ## Desenvolvedores
 ### João Pedro Rios
 [Github](https://github.com/joaorios03)
