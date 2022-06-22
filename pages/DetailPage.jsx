@@ -4,12 +4,9 @@ import PropertyImage from '../components/PropertyImage';
 import PropertyInfo from '../components/PropertyInfo';
 import PropertyDescription from '../components/PropertyDescription';
 import { Ionicons } from "@expo/vector-icons";
-import Maps from '../components/Maps';
-import { useNavigation } from '@react-navigation/native';
 
 export default function DetailPage({ route, navigation }) {
     const { name, image_url, location, description } = route.params;
-    // const navigation = useNavigation();
 
     return (
         <SafeAreaView style={{ backgroundColor: "white", flex: 1, padding: 20 }}>

@@ -8,10 +8,12 @@ import {
   TextInput,
   TouchableOpacity,
 } from "react-native";
+import { useNavigation } from "@react-navigation/native";
  
 export default function LoginPage() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const navigation = useNavigation();
  
   return (
     <View style={styles.container}>
@@ -42,8 +44,11 @@ export default function LoginPage() {
       <TouchableOpacity>
         <Text style={styles.forgot_button}>Forgot Password?</Text>
       </TouchableOpacity>
+      <TouchableOpacity>
+        <Text style={styles.forgot_button}>Registre-se</Text>
+      </TouchableOpacity>
  
-      <TouchableOpacity style={styles.loginBtn}>
+      <TouchableOpacity style={styles.loginBtn} onPress={(e) => navigation.navigate('Home')}>
         <Text style={styles.loginText}>login</Text>
       </TouchableOpacity>
     </View>
@@ -91,7 +96,7 @@ const styles = StyleSheet.create({
     height: 50,
     alignItems: "center",
     justifyContent: "center",
-    marginTop: 40,
+    marginTop: 20,
     backgroundColor: "blue",
     color: 'white'
   },
